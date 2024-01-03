@@ -1,0 +1,593 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: Black;
+}
+h2{
+    color: Black;
+}
+h4{
+    color: black;
+}
+ 
+body{
+    background-color: #fffef2;
+}
+
+
+
+.Navbar{
+    margin-top: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+    #foodies{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      
+       color: white;
+       font-size: 30px;
+       border: 2px solid white;
+        
+    }
+    #homebutton{
+        position: relative;
+        top: 10px;
+        font-style: italic;
+        font-size: x-large;
+        color: white;
+    }
+    #menubutton{
+        position: relative;
+        top: 10px;
+        font-style: italic;
+        font-size: x-large;
+        color: white;
+    }
+    #aboutbutton{
+        position: relative;
+        top: 10px;
+        font-style: italic;
+        font-size: x-large;
+        color: white;
+    }
+    #contactbutton{
+        position: relative;
+        top: 10px;
+        font-style: italic;
+        font-size: x-large;
+        color: white;
+    }
+    #cartbutton{
+        position: relative;
+        top: 10px;
+        font-style: italic;
+        font-size: x-large;
+        color: white;
+    }
+    #homebutton:hover{
+        font-style: normal;
+    }
+    #menubutton:hover{
+        font-style: normal;
+    }
+    #aboutbutton:hover{
+        font-style: normal;
+    }
+    #contactbutton:hover{
+        font-style: normal;
+    }
+    #cartbutton:hover{
+        font-style: normal;
+    }
+
+
+
+
+
+    #home{
+        display: flex;
+        justify-content: space-between;
+        height: 800px;
+        background-image: url("backimg4.jpg");
+        background-color:rgba(0,0,0,0.1);
+        background-size: cover;
+        
+    }
+    #storecover{
+        height: 500px;
+        position: relative;
+        left: 100px;
+        top: 100px;
+        border: solid white 5px;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 5px 5px 5px rgba(0,0,0,0.8);
+    }
+    #storecover:hover{
+        transform: scale(1.005);
+        
+    }
+
+    #title{
+        color: #076bb6;
+        position: relative;
+        top: 150px;
+        right: 30px;
+        font-size: xx-large;
+        text-align: center;
+        font-size: 50px;
+        background-color:rgba(255,255,255,0.5);
+    
+        height: 400px;
+        font-display: dark;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 5px 5px 5px rgba(0,0,0,0.8);
+    }
+    #title:hover{
+transform: scale(1.05);
+    }
+    #quote{
+        color: black;
+    }
+
+    #Menubutton{
+        background-color: #66c8ff;
+        height: 50px;
+        width: 300px;
+        font-size: 20px;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 5px 5px 5px rgba(0,0,0,0.8);
+    }
+    #Menubutton:hover{
+        transform: scale(1.05);
+    }
+
+
+
+
+
+#menu{
+    height: 3100px;
+    width: 100%;
+    background-image: url("menu1.jpg");
+    background-size: cover;
+}
+#menutitle{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+        font-family: cursive;
+}
+#startertitle{
+    color: black;
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 50px;
+}
+
+#starter{
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+        margin: 0px;
+    }
+    
+         #i1{
+         color: black;
+         background-color: #F9F1F0;
+         height: 400px;
+         width: 300px;
+         border: Solid 2px black;
+         border-radius: 10px;
+         text-align: center;
+         transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+         }
+         #i1:hover{
+            transform: scale(1.05);
+         }
+        #i2{
+        color: black;
+        background-color: #F9F1F0;
+        height: 400px;
+        width: 300px;
+        border: Solid 2px black;
+        border-radius: 10px;
+        text-align: center;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+        }
+        #i2:hover{
+            transform: scale(1.05);
+         }
+        #i3{
+        color: black;
+        background-color: #F9F1F0;
+        height: 400px;
+        width: 300px;
+        border: Solid 2px black;
+        border-radius: 10px;
+        text-align: center;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+        }
+        #i3:hover{
+            transform: scale(1.05);
+         }
+        #i4{
+        color: black;
+        background-color: #F9F1F0;
+        height: 400px;
+        width: 300px;
+        border: Solid 2px black;
+        border-radius: 10px;
+        text-align: center;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+         }
+         #i4:hover{
+            transform: scale(1.05);
+         }
+        
+
+    #starter1{
+        margin-top: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        height: 180px;
+        width: 295px;
+        border-radius: 10px;      
+    }   
+    
+    #starter2{
+        margin-top: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        height: 180px;
+        width: 295px;
+        border-radius: 10px;
+    } 
+    
+    #starter3{
+        margin-top: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        height: 180px;
+        width: 295px;
+        border-radius: 10px;
+    } 
+    
+    #starter4{
+        margin-top: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        height: 180px;
+        width: 295px;
+        border-radius: 10px;
+    } 
+    
+                 
+    #addToCart{
+        height:30px;
+        width: 200px;
+        background-color:#66c8ff ;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+    }    
+    #addToCart:hover{
+        transform: scale(1.05);
+    }
+    
+    
+#MainCourse{
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+    #MainCourse2{
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }    
+    #MainCourse3{
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    } 
+    #mcTitle{
+        color: black;
+        font-size: 40px;
+        font-family: cursive;
+        margin-left: 50px;
+    }
+    #mc1{
+        color: black;
+        background-color: #F9F1F0;
+        height: 400px;
+        width: 300px;
+        border: Solid 2px black;
+        border-radius: 10px;
+        text-align: center;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;  
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);       
+           
+        }
+        #mc1:hover{
+                transform: scale(1.05);
+               
+                
+            }
+       #mc2{
+       color: black;
+       background-color: #F9F1F0;
+       height: 400px;
+       width: 300px;
+       border: Solid 2px black;
+       border-radius: 10px;
+       text-align: center;
+       transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+       }
+       #mc2:hover{
+        transform: scale(1.05);
+    }
+       #mc3{
+       color: black;
+       background-color: #F9F1F0;
+       height: 400px;
+       width: 300px;
+       border: Solid 2px black;
+       border-radius: 10px;
+       text-align: center;
+       transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+       }
+       #mc3:hover{
+        transform: scale(1.05);
+    }
+    #mcimg1{
+        margin-top: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        height: 180px;
+        width: 295px;
+        border-radius: 10px;
+    
+    }   
+    
+    #mcimg2{
+        margin-top: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        height: 180px;
+        width: 295px;
+        border-radius: 10px;
+    } 
+    #mcimg3{
+        margin-top: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        height: 180px;
+        width: 295px;
+        border-radius: 10px;
+    }
+
+#deserttitle{
+    color: black;
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 50px;
+}
+#desert{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin: 0px;
+    
+}
+#desert2{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+#about{
+    background-image: url("backgroundimg4.jpg");
+}
+    #restaurantTitle{
+        text-align: center;
+        font-size: 40px;
+        font-family: cursive;
+    }
+    #dis{
+        color: black;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+    #history{
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        font-family: "Lucida Console", Courier, monospace;
+    }
+    #hist{
+        font-family: "Lucida Console", Courier, monospace;
+        color: black;
+        text-align: center;
+        font-size: 25px;
+    }
+    #ourchefs{
+        font-size: 40px;
+        color: black;
+        text-align: center;
+    }
+    #chef{
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+    #chef1{
+        color: black;
+        background-color: #F9F1F0;
+        height: 450px;
+        width: 300px;
+        border: Solid 2px black;
+        border-radius: 10px;
+        text-align: center;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    #chef2{
+        color: black;
+        background-color: #F9F1F0;
+        height: 450px;
+        width: 300px;
+        border: Solid 2px black;
+        border-radius: 10px;
+        text-align: center;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    #chef3{
+        color: black;
+        background-color: #F9F1F0;
+        height: 450px;
+        width: 300px;
+        border: Solid 2px black;
+        border-radius: 10px;
+        text-align: center;
+        transform: scale(1);
+        transform: transform 5s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8), 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    #chef1img{
+    width: 295px;
+    height: 280px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border-radius: 10px;
+    }
+    #chef2img{
+        width: 295px;
+        height: 280px;
+        margin-top: 2.5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        border-radius: 10px;
+        }
+    #chef3img{
+        width: 295px;
+        height: 280px;
+        margin-top: 2.5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        border-radius: 10px;
+        }
+
+    
+   
+
+
+
+        #footer{
+            background-color: black;
+            height: 380px;
+            width: 100%;
+            text-align: center;
+            
+        }
+        #footerheading{
+        font-size: 40px;
+        text-align: center;
+        }
+        #socialmedia{
+            height:300px;
+            width: 500px;
+            position: relative;
+            left: 450px;
+        }
+        #insta{
+            height: 50px;
+            width: 50px;
+        }
+        #facebook{
+            height: 50px;
+            width: 50px;
+        }
+        #linkedin{
+            height: 50px;
+            width: 50px;
+        }
+        #x{
+            height: 50px;
+            width: 50px;
+        }
+        #whatsapp{
+            height: 50px;
+            width: 50px;
+        }
+
+        #links{
+            color: white;
+        }
+        #tc{
+         color: white;
+         font-size: 30px;
+        }
+        #pp{
+            color: white;
+            font-size: 30px;
+           }
+        #ci{
+            color: white;
+            font-size: 30px;
+        }
+        #up{
+            position: relative;
+            left: 0px;
+            bottom: 0px;
+            height: 40px;
+            width: 300px;
+            background-color: lightgrey;
+            color: black;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+
+        
+
+
+
+
